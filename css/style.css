@@ -38,3 +38,87 @@ body {
     font-weight: 600;
     font-style: italic;
 }
+
+
+/* Datenschutz */
+
+.datenschutz {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 120px 30px 80px;
+    color: #111111;
+}
+
+.datenschutz h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.datenschutz h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.datenschutz p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+    .datenschutz {
+        padding: 100px 20px 60px;
+    }
+
+    .datenschutz h1 {
+        font-size: 30px;
+    }
+
+    .datenschutz h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* Back Link */
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 50px;
+    color: #111111;
+    font-size: 16px;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.back-link:hover {
+    opacity: 0.6;
+}
+
+
+.footer-legal {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-legal:hover {
+    color: #111111;
+}
+
+
+.datenschutz ul {
+    padding-left: 24px;
+    margin-bottom: 24px;
+}
+
+.datenschutz li {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
